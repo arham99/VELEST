@@ -24,22 +24,22 @@ input files:
                       respectively. copy the one of your liking to
                       velest.cmn as the program always uses this file)
 
- 2.  ca1d11.mod      file containing 1D model data
+ 2.  initialzAK135.mod      file containing 1D model data
 
- 3.  ca1vel.sta      file containing station data
+ 3.  station.sta      file containing station data
 
- 4.  calarea7.cnv    file with earthquake travel time data in cnv-format
+ 4.  datavelest2.cnv.cnv    file with earthquake travel time data in cnv-format
 
      (all these input files regard Calaveras data in central California)
 
 
  output files:
 
- 5.  VELMOD11area7.OUT    *** Main print output file
+ 5.  output.OUT    *** Main print output file
 
- 6.  VELMOD11area7.CNV    ***File with final hypocenters in *.cnv format
+ 6.  finalhypo.CNV    ***File with final hypocenters in *.cnv format
 
- 7.  mod11area7sta.OUT    *** File with new station corrections
+ 7.  stat_corr.OUT    *** File with new station corrections
 
 
 
@@ -48,5 +48,13 @@ input files:
      *** File with region names:         regionsnamen.dat
                                          
      *** File with region coordinates:   regionskoord.dat
+     
+### to run the program
+```
+cd VELEST/velest
+'/VELEST/bin/velest' 
+
+```
+
                                         
 
