@@ -17,7 +17,7 @@ on fedora
 
 on Manjaro Linux
 
-	'sudo pamac install gcc-gfortran'
+	sudo pamac install gcc-gfortran
 	
 after you can clone this repository by doing:
 
