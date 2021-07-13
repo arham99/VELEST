@@ -34,3 +34,7 @@ Compile the code by running
 The generated executable file is `bin/velest` 
 
 
+### NOTE !!! 
+
+Gunakan script `GADtoVelest.m` untuk membuat file .CNV, dokumentasi lebih lanjut pada [link](https://geophysical-info.blogspot.com/2019/08/tutorial-velest-3.html) ini
+
