@@ -15,6 +15,10 @@ on fedora
 
 	sudo yum install gcc-gfortran
 
+on Manjaro Linux
+
+	'sudo pamac install gcc-gfortran'
+	
 after you can clone this repository by doing:
 
 	git clone https://github.com/arham99/VELEST	
@@ -25,7 +29,7 @@ Compile
 
 Compile the code by running
 
-	make 
+	make all
 
 The generated executable file is `bin/velest` 
 
