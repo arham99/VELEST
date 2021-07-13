@@ -17,11 +17,8 @@ on fedora
 
 after you can clone this repository by doing:
 
-	git clone https://github.com/jubenjum/velest	
+	git clone https://github.com/arham99/VELEST	
 
-or getting the zip file:
-
-	wget -c https://github.com/jubenjum/velest/archive/master.zip
 
 Compile
 -------
