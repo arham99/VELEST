@@ -38,10 +38,7 @@ CALAVERAS area7 1.10.93 EK startmodell vers. 1.1
     0.010      8          2
 ***
 *** Modelfile:
-*** mod1_exupintrm.mod
-*** mod1_exuphigh.mod
-mod1_exuplow.mod
-*** initialzAK135.mod 
+initialzAK135.mod 
 ***
 *** Stationfile:
 station.sta
