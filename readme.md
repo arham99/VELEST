@@ -34,6 +34,20 @@ Compile the code by running
 The generated executable file is `bin/velest` 
 
 
+
+# IMPORTANT NOTE : untuk non Linux user
+
+Program VELEST ini sukses dikompilasi dan dijalankan pada sistem operasi Linux.
+untuk windows user dapat menggunakan [Cygwin](https://cygwin.com/install.html), dengan menginstall package berikut ini:
+- GCC
+- gfortran
+- make
+- dll
+
+NOTE : code pada VELEST bisa saja tidak bekerja dengan semestinya pada Cygwin, sehingga butuh di-edit secara manual pada source code (!!hati2)
+
+
+
 ### NOTE !!! 
 
 Gunakan script `GADtoVelest.m` untuk membuat file .CNV, dokumentasi lebih lanjut pada [link](https://geophysical-info.blogspot.com/2019/08/tutorial-velest-3.html) ini
