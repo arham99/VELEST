@@ -50,5 +50,5 @@ NOTE : code pada VELEST bisa saja tidak bekerja dengan semestinya pada Cygwin, s
 
 ### NOTE !!! 
 
-Gunakan script `GADtoVelest.m` untuk membuat file .CNV, dokumentasi lebih lanjut pada [link](https://geophysical-info.blogspot.com/2019/08/tutorial-velest-3.html) ini
+Gunakan script `COLLECT_VELEST.py` untuk membuat file .CNV dengan executable shell file nya adalah `run_VL.sh` 
 
