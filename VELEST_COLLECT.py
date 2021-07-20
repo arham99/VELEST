@@ -101,5 +101,6 @@ with open ("datavelest.cnv", "w") as file_cnv:
             file_cnv.write("   ")
     file_cnv.write("%4i" % 9999)
     file_cnv.write("\n")
+    file_cnv.close()
 
                 
