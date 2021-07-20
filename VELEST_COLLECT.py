@@ -60,7 +60,7 @@ with open ("datavelest.cnv", "w") as file_cnv:
         for z in emag_ifx:
             data_OT2.append(z)
         TT=data_OT2
-        file_cnv.write("%2i%2i%2i %2i%2i %5.2f %7.4f%s %8.4f%s%7.2f %4.2f %1i\n" % (TT[0],TT[1],TT[2],TT[3],TT[4],TT[5],abs(TT[6]),"S",TT[7],"E",TT[8],TT[9],TT[10]))
+        file_cnv.write("%2i%2i%2i %2i%2i%6.2f%8.4f%s %8.4f%s %6.2f   %4.2f      %1i\n" % (TT[0],TT[1],TT[2],TT[3],TT[4],TT[5],abs(TT[6]),"S",TT[7],"E",TT[8],TT[9],TT[10]))
         
         for n in data_collect:
             par_stop+=1
@@ -90,12 +90,16 @@ with open ("datavelest.cnv", "w") as file_cnv:
         list_dt=data_pd_clt[i].values.tolist()
         h=0
         for p in list_dt:
-            file_cnv.write("%4s%s%1i%6.2f   " % (p[0],p[1],1,p[2]))
             h+=1
+            file_cnv.write("%4s%s%1i%6.2f" % (p[0],p[1],1,p[2]))
             if h % 6 == 0:
                 file_cnv.write("\n")
+                continue
             if len(list_dt)==h:
                 file_cnv.write("\n\n")
-        file_cnv.write("%4i" % 9999)
+                break
+            file_cnv.write("   ")
+    file_cnv.write("%4i" % 9999)
+    file_cnv.write("\n")
 
                 
