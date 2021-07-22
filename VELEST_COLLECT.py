@@ -92,6 +92,9 @@ with open ("datavelest.cnv", "w") as file_cnv:
         for p in list_dt:
             h+=1
             file_cnv.write("%4s%s%1i%6.2f" % (p[0],p[1],1,p[2]))
+            if len(list_dt)==h:
+                file_cnv.write("\n\n")
+                break
             if h % 6 == 0:
                 file_cnv.write("\n")
                 continue
