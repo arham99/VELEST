@@ -23,7 +23,8 @@ import glob
 uniq_ID=input("Masukan ID gempa :")
 file_name=glob.glob('*.loc.hyp')
 file_name_skip_sum=[]
-with open ("datavelest.cnv", "w") as file_cnv:
+cnv_Out=input("FIle CNV akan disimpan dengan (ex. VELEST) :" )
+with open ((cnv_Out+".cnv"), "w") as file_cnv:
 #with pd.ExcelWriter("Coleccting_statistic.xlsx", engine='xlsxwriter') as writer:
     for i in file_name:
         if i.startswith(str(uniq_ID)+".sum.grid0.loc.hyp"):continue
